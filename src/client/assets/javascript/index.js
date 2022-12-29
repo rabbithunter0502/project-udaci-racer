@@ -82,7 +82,7 @@ async function handleCreateRace() {
 	// TODO - Get player_id and track_id from the store
 	const trackId = store.track_id;
 	const playerId = store.player_id;
-	if (!trackId || !playerId) {
+	if (!trackId) {
 		alert('please choose your track!')
 		location.reload();
 	}
